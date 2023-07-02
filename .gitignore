@@ -1,5 +1,33 @@
-# Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,macos,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,macos,python
+# Created by https://www.toptal.com/developers/gitignore/api/python,macos,jupyternotebooks,data,compressed
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,jupyternotebooks,data,compressed
+
+### Compressed ###
+*.7z
+*.bz2
+*.bzip2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tbz2
+*.tgz
+*.zip
+
+### Data ###
+*.csv
+*.dat
+*.efx
+*.gbr
+*.key
+*.pps
+*.ppt
+*.pptx
+*.sdf
+*.tax2010
+*.vcf
+*.xml
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -217,4 +245,4 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,macos,python
+# End of https://www.toptal.com/developers/gitignore/api/python,macos,jupyternotebooks,data,compressed
