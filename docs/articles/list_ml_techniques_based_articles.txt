@@ -1,0 +1,51 @@
+List of ML Techniques based on Articles
+
+
+Academic
+**Example**
+0. A Novel Cryptocurrency Price Prediction Model Using GRU, LSTM and Bi-LSTM Machine Learning Algorithms
+Paper Link: https://www.mdpi.com/2673-2688/2/4/30;
+Repository Link: not found;
+Language:;
+Data Sources: Marketwatch.com;
+Date Period: 22/01/2018 - 30/06/2021;
+Published: 13/10/2021;
+Keywords: Cryptography, Blockchain, Cryptocurrency, Artificial Intelligence (AI), Machine Learning;
+Cryptos: BTC, LTC, ETH;
+Methods: Supervised Learning (Regression);
+Techniques: GRU, Long Short-Term Memory (LSTM), Bidirectional Long Short-Term Memory (Bi-LSTM);
+Features: Date, Open, High, Low, Close;
+Performance Metrics: Root Mean Square Error (RMSE), MAPE;
+Results: GRU was the best one
+a) LSTM (RMSE, MAPE)
+- BTC: 410.399, 1.1234%
+- LTC: 59.507, 1.5498%
+- ETH: 3.069, 0.8474%
+b) bi-LSTM (RMSE, MAPE)
+- BTC: 2927.006, 5.990%
+- LTC: 321.061, 6.85%
+- ETH: 4.307, 2.332%
+c) GRU (RMSE, MAPE)
+- BTC: 174.129, 0.2454%
+- LTC: 26.59, 0.8267%
+- ETH: 0.825, 0.2116%.
+
+TODO list:
+- select all the important articles (academic or blogs) and save on the articles folder
+- define all the criterias required for the context we've been implementing
+- add more bullets according to the articles and fill the criterias
+
+1. iPinYou Global RTB Bidding Algorithm Competition Dataset
+Paper Link: https://www.researchgate.net/publication/266661752_iPinYou_Global_RTB_Bidding_Algorithm_Competition_Dataset;
+Repository ;
+Language:;
+Data Sources:;
+Date Period:;
+Published:;
+Keywords:;
+Cryptos: ;
+Methods: ;
+Techniques: ;
+Features: ;
+Performance Metrics: ;
+Results: .
