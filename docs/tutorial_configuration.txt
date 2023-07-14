@@ -1,0 +1,45 @@
+# clone a remote repository (master branch)
+git clone https://github.com/otter365/programmatic_challenge.git
+
+# bring the training data samples to the working directory
+cd programmatic_challenge/
+mkdir data
+
+# download from https://www.kaggle.com/code/kerneler/starter-ipinyou-b75fcfd5-1/input
+## bid.20130311.txt.bz2
+## imp.20130311.txt.bz2
+
+# modified files...
+
+# check the status of the branch
+git status
+
+# check the differences between the unstaged modifications (working directory) and the staging area
+git diff
+
+# add the modifications to the staging area
+git add .
+
+# commit the staging area to local repository
+git commit -m "some message about the modifications..."
+
+# push the modifications to the remote repository
+git push
+
+# download the remote repo again in case of modifications in there
+git pull
+
+# download the local repo again in case of modifications in there (if a branch name is specified, switch between branches)
+git checkout
+
+# merge the local repo with the working directory
+git merge
+
+# create a new branch from the master
+git branch branch_name
+
+# switch to the new branch created
+git checkout branch_name
+
+# switch again to the master
+git checkout master
